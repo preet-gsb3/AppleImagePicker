@@ -1,5 +1,5 @@
 # DG-ImagePicker
-DG-ImagePicker is an instagram-like photo/video picker for iOS written in pure Swift. It is feature-rich and highly customizable to match your App's requirements.
+DG-ImagePicker is an whatsapp-like photo/video picker for iOS written in pure Swift. It is feature-rich and highly customizable to match your App's requirements.
 
 [![Language: Swift 5](https://img.shields.io/badge/language-swift%205-f48041.svg?style=flat)](https://developer.apple.com/swift)
 [![Platform](https://img.shields.io/cocoapods/p/DG-ImagePicker.svg?style=flat)](http://cocoapods.org/pods/DG-ImagePicker)
