@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  DG-ImagePicker
+//  AppleImagePicker
 //
 //  Created by Gurpreet Singh on 11/02/20.
 //  Copyright © 2020 Gurpreet. All rights reserved.
