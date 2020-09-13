@@ -1,25 +1,19 @@
-# DG-ImagePicker
-DG-ImagePicker is an whatsapp-like photo/video picker for iOS written in pure Swift. It is feature-rich and highly customizable to match your App's requirements.
+# AppleImagePicker
+AppleImagePicker is an easy to use for select image options (using gallery & camera) with actionsheet. Just need to plug and play quickly into your project. Cheers!!!
 
 [![Language: Swift 5](https://img.shields.io/badge/language-swift%205-f48041.svg?style=flat)](https://developer.apple.com/swift)
-[![Platform](https://img.shields.io/cocoapods/p/DG-ImagePicker.svg?style=flat)](http://cocoapods.org/pods/DG-ImagePicker)
-[![License: MIT](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](https://github.com/preet-gsb3/DG-ImagePicker/blob/master/LICENSE)
+[![License: MIT](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](https://github.com/preet-gsb3/AppleImagePicker/blob/master/LICENSE)
 
 ## Installation
 
-Drop in the Classes folder to your Xcode project.  
-You can also use CocoaPods.
-
-#### Using [CocoaPods](http://cocoapods.org/)
-
-First be sure to run `pod repo update` to get the latest version available.
-
-Add `pod 'DG-ImagePicker'` to your `Podfile` and run `pod install`. Also add `use_frameworks!` to the `Podfile`.
+Just Drag and drop folder "ImagePickerManager" into your project and add following lines of code in your controller.
 
 ```
-target 'MyApp'
-pod 'DG-ImagePicker'
-use_frameworks!
+ImagePickerManager.shared.callPickerOptions(sender) { (image, imageData) in
+    // Handle your action here
+    // e.g. self.imgView.image = image
+}
+
 ```
 ## Author
 Gurpreet Singh.
